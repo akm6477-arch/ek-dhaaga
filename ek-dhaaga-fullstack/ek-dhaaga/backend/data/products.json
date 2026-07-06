@@ -1,0 +1,143 @@
+{
+  "categories": [
+    {
+      "id": "achar",
+      "name": "अचार",
+      "nameEn": "Achar",
+      "seal": "#C98A2B",
+      "products": [
+        {
+          "id": "achar-mango",
+          "name": "आम का अचार",
+          "nameEn": "Sun-Ripened Mango Achar",
+          "desc": "धूप में पकाया गया कच्चा आम, सरसों के तेल और सब्रे में डूबा — तीन पीढ़ियों से एक ही स्वाद।",
+          "maker": "रामप्यारी देवी",
+          "village": "गाँव सोहना",
+          "price": 249,
+          "unit": "400g",
+          "seal": "#C98A2B"
+        },
+        {
+          "id": "achar-chili",
+          "name": "हरी मिर्च का अचार",
+          "nameEn": "Green Chili Achar",
+          "desc": "तीखी, ताज़ी हरी मिर्च — नींबू और मसालों के साथ। हर निवाले में एक चटक, जैसे नानी की रसोई।",
+          "maker": "सुनीता बेन",
+          "village": "गाँव कच्छ",
+          "price": 199,
+          "unit": "350g",
+          "seal": "#556B3B"
+        },
+        {
+          "id": "achar-mix",
+          "name": "मिक्स अचार",
+          "nameEn": "Village Mix Achar",
+          "desc": "आम, नींबू, गाजर, मिर्च — एक साथ, जैसे एक गाँव में सब मिलकर रहते हैं। हर स्वाद अलग, पर जार एक।",
+          "maker": "कमला ताई",
+          "village": "गाँव धुले",
+          "price": 299,
+          "unit": "450g",
+          "seal": "#A94430"
+        }
+      ]
+    },
+    {
+      "id": "murabba",
+      "name": "मुरब्बा",
+      "nameEn": "Murabba",
+      "seal": "#B8562F",
+      "products": [
+        {
+          "id": "murabba-amla",
+          "name": "आँवला मुरब्बा",
+          "nameEn": "Amla Murabba",
+          "desc": "सर्दी की सुबह जैसा मीठा-खट्टा — दादी अक्सर कहती थीं, रोज़ एक चम्मच सेहत के लिए।",
+          "maker": "शांति देवी",
+          "village": "गाँव मुरादाबाद",
+          "price": 279,
+          "unit": "400g",
+          "seal": "#7A9B6E"
+        },
+        {
+          "id": "murabba-carrot",
+          "name": "गाजर मुरब्बा",
+          "nameEn": "Carrot Murabba",
+          "desc": "सर्दियों की ताज़ी गाजर, धीमी आँच पर पकाई — घर के आँगन की मिठास जैसी।",
+          "maker": "बिमला देवी",
+          "village": "गाँव करनाल",
+          "price": 259,
+          "unit": "400g",
+          "seal": "#C9752B"
+        }
+      ]
+    },
+    {
+      "id": "ghee",
+      "name": "घी",
+      "nameEn": "Ghee",
+      "seal": "#D6A93B",
+      "products": [
+        {
+          "id": "ghee-cow",
+          "name": "देसी गाय घी",
+          "nameEn": "Desi Cow Ghee",
+          "desc": "गाय के दूध से हाथों से मथा गया घी — बिलोना विधि से, जैसे नानी बनाया करती थीं।",
+          "maker": "गीता देवी",
+          "village": "गाँव बरेली",
+          "price": 649,
+          "unit": "500ml",
+          "seal": "#D6A93B"
+        },
+        {
+          "id": "ghee-buffalo",
+          "name": "भैंस का घी",
+          "nameEn": "Buffalo Ghee",
+          "desc": "गाढ़ा, खुशबूदार, हर रोटी में एक याद — बिना किसी मिलावट के, सीधा घर से।",
+          "maker": "राधा देवी",
+          "village": "गाँव अलीगढ़",
+          "price": 599,
+          "unit": "500ml",
+          "seal": "#8B6A2F"
+        }
+      ]
+    },
+    {
+      "id": "chutney",
+      "name": "चटनी",
+      "nameEn": "Chutney",
+      "seal": "#5A7A3E",
+      "products": [
+        {
+          "id": "chutney-coriander",
+          "name": "धनिया चटनी",
+          "nameEn": "Coriander Chutney",
+          "desc": "ताज़ा धनिया, हरी मिर्च, नींबू — हर थाली में एक ताज़गी भर देती है।",
+          "maker": "पुष्पा देवी",
+          "village": "गाँव मेरठ",
+          "price": 149,
+          "unit": "250g",
+          "seal": "#5A7A3E"
+        },
+        {
+          "id": "chutney-tamarind",
+          "name": "इमली चटनी",
+          "nameEn": "Tamarind Chutney",
+          "desc": "मीठी-खट्टी, गुड़ के साथ पकाई — गोलगप्पे और चाट की जान।",
+          "maker": "सरोज देवी",
+          "village": "गाँव आगरा",
+          "price": 159,
+          "unit": "250g",
+          "seal": "#8B4A2B"
+        }
+      ]
+    },
+    {
+      "id": "coming-soon",
+      "name": "जल्द आ रहा है",
+      "nameEn": "Coming Soon",
+      "seal": "#8A8270",
+      "placeholder": true,
+      "products": []
+    }
+  ]
+}

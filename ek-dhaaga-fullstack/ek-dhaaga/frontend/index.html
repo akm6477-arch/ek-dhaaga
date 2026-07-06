@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>एक धागा · Ek Dhaaga — Homemade Achar, Murabba, Ghee, Chutney</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <div class="brand">
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+        <circle cx="13" cy="13" r="12" stroke="#A94430" stroke-width="1.4"/>
+        <path d="M6 13c3-4 11-4 14 0" stroke="#2C3E66" stroke-width="1.4" fill="none"/>
+      </svg>
+      एक धागा
+    </div>
+    <button class="cart-btn" id="cartToggle">
+      कार्ट <span id="cartCount">0</span>
+    </button>
+  </nav>
+</header>
+
+<section class="hero">
+  <svg class="thread-svg" viewBox="0 0 1400 260" preserveAspectRatio="none">
+    <path d="M -50 40 C 250 180, 550 -40, 750 100 S 1150 220, 1450 60"
+          stroke="#B8A57C" stroke-width="1.4" fill="none" stroke-dasharray="2 10" stroke-linecap="round"/>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow"><span class="dash"></span> हाथों से बना, दिल से भेजा <span class="dash"></span></div>
+    <h1>जो धरती में है,<br>वही हमारे <em>घर के स्वाद</em> में है</h1>
+    <p>अचार, मुरब्बा, घी, चटनी — वही हाथ जो मिट्टी जोतते हैं, वही यह बनाते हैं।<br>Made by the hands that till the soil — for every table, everywhere.</p>
+  </div>
+</section>
+
+<!-- category tabs render here -->
+<nav class="cat-tabs" id="catTabs"></nav>
+
+<!-- product grid renders here -->
+<section class="products">
+  <div class="wrap">
+    <div id="productGrid" class="grid"></div>
+  </div>
+</section>
+
+<section class="strip">
+  <div class="wrap">
+    <h2>"मिट्टी सबकी एक है — फिर स्वाद अलग-अलग नाम से क्यों बंटे?"</h2>
+    <div class="sub">The soil is the same for everyone — why should taste know borders?</div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="wrap contact-wrap">
+    <div>
+      <h2>नए स्वाद के बारे में सबसे पहले जानें</h2>
+      <p>अपना नाम और नंबर छोड़ें — जब नई चीज़ें आएँ, हम आपको बताएँगे।</p>
+    </div>
+    <form id="leadForm" class="lead-form">
+      <input type="text" name="name" placeholder="आपका नाम" required>
+      <input type="tel" name="phone" placeholder="फ़ोन नंबर" required>
+      <textarea name="message" placeholder="कुछ कहना चाहें? (वैकल्पिक)" rows="2"></textarea>
+      <button type="submit">भेजें</button>
+      <div id="leadStatus" class="lead-status"></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-brand">एक धागा · Ek Dhaaga</div>
+    <p class="foot-note">हर जार में एक गाँव, एक हाथ, और एक ही धागा जो हम सबको जोड़ता है।</p>
+    <div class="foot-bottom">© 2026 Ek Dhaaga — प्रोटोटाइप। नाम व फ़ोटो केवल उदाहरण हैं।</div>
+  </div>
+</footer>
+
+<!-- cart drawer -->
+<div id="cartDrawer" class="cart-drawer">
+  <div class="cart-drawer-inner">
+    <div class="cart-head">
+      <h3>आपका कार्ट</h3>
+      <button id="cartClose">✕</button>
+    </div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-total">
+      <span>कुल</span>
+      <span id="cartTotal">₹0</span>
+    </div>
+  </div>
+</div>
+<div id="cartOverlay" class="cart-overlay"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
